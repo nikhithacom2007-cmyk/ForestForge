@@ -9,8 +9,7 @@ Author: Your Name
 import numpy as np
 from sklearn.model_selection import train_test_split
 
-from forestforge.tree import DecisionTreeClassifier
-from forestforge.ensemble import RandomForestClassifier
+from forestforge import DecisionTreeClassifier, RandomForestClassifier
 from forestforge.metrics import (
     accuracy_score,
     precision_score,

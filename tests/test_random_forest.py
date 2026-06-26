@@ -6,7 +6,7 @@ import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
-from forestforge.ensemble.random_forest import RandomForestClassifier
+from forestforge import RandomForestClassifier
 
 
 def test_random_forest():
